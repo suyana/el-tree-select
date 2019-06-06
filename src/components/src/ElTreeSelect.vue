@@ -66,7 +66,7 @@ export default {
         // v-model,存储的是treeParams.data里面的id
         value: {
             // `String` / `Array`
-            type: [String, Array],
+            type: [String, Array,Number],
             // `''`
             default() {
                 return '';
